@@ -1,5 +1,5 @@
 # output binary
-BIN := game
+BIN := game.out
 
 # source files
 SRCS := \

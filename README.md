@@ -12,7 +12,7 @@ Para compilar la aplicación ejecuta la siguiente comanda en el directorio base 
 
 ```bash
 make all
-./game
+./game.out
 ```
 Para limpiar el proyecto ejecuta la siguiente comanda:
 ```bash
