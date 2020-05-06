@@ -1,4 +1,4 @@
-![game.png]('images/game.png')
+![game.png](images/game.png)
 # Pong Game 
 
 Implementación del juego del pong en c++ para el microcontrolador klz25
