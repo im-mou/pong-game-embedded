@@ -5,7 +5,7 @@ SCREEN_WIDTH = 800
 SCREEN_HEIGHT = 500
 
 # Open the window. Set the window title and dimensions (width and height)
-arcade.open_window(SCREEN_WIDTH, SCREEN_HEIGHT, "Drawing Example")
+arcade.open_window(SCREEN_WIDTH, SCREEN_HEIGHT, "Juego del opng")
 
 # Set the background color to white.
 # For a list of named colors see:
@@ -38,9 +38,13 @@ arcade.draw_lrtb_rectangle_filled(x, x+w, y+h, y, arcade.color.WHITE)
 x = (SCREEN_WIDTH/2) -1 
 arcade.draw_lrtb_rectangle_filled(x,x+2,SCREEN_HEIGHT,0,arcade.color.GRAY)
 
+#muros
+arcade.draw_lrtb_rectangle_filled(0,SCREEN_WIDTH,10,0,arcade.color.WHITE)
+arcade.draw_lrtb_rectangle_filled(0,SCREEN_WIDTH,SCREEN_HEIGHT,SCREEN_HEIGHT-10,arcade.color.WHITE)
+
 #puntuaciones
-arcade.draw_text("0", (SCREEN_WIDTH/2)-35, SCREEN_HEIGHT-40, arcade.color.WHITE, 18, align="center")
-arcade.draw_text("0", (SCREEN_WIDTH/2)+23, SCREEN_HEIGHT-40, arcade.color.WHITE, 18, align="center")
+arcade.draw_text("0", (SCREEN_WIDTH/2)-35, SCREEN_HEIGHT-50, arcade.color.WHITE, 18, align="center")
+arcade.draw_text("0", (SCREEN_WIDTH/2)+23, SCREEN_HEIGHT-50, arcade.color.WHITE, 18, align="center")
 
 # Finish drawing and display the result
 arcade.finish_render()
