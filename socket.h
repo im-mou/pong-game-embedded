@@ -25,7 +25,7 @@ void socket_comm()
 
     sockaddr_in serverAddr;
     serverAddr.sin_family = AF_INET;
-    serverAddr.sin_port = htons(60001);
+    serverAddr.sin_port = htons(50000);
     serverAddr.sin_addr.s_addr = INADDR_ANY;
 
     bind(serverSock, (struct sockaddr *)&serverAddr, sizeof(struct sockaddr));
