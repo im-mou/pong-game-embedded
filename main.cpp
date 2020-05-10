@@ -5,6 +5,7 @@
 #include "globals.h"
 #include "source/bola.h"
 #include "source/pala.h"
+#include "socket.h"
 
 #include "input.cpp"
 
@@ -94,7 +95,8 @@ void exit()
 
 int main(int argc, const char **argv)
 {
-
+  socket_comm();
+/*
   Bola *bola = new Bola(0, 0, 1, 1);
   Pala *pala_left = new Pala(2, 0, 2, 5);
   Pala *pala_right = new Pala(MAP_WIDTH - 2, 0, 2, 5);
@@ -155,5 +157,7 @@ int main(int argc, const char **argv)
   }
 
   input_off();
+
+  */
   return 0;
 }

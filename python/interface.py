@@ -1,11 +1,25 @@
+import socket
+import sys
 import arcade
+
+
+HOST, PORT = '0.0.0.0', 10000
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+
+s.connect((HOST, PORT))
+for x in range(0, 10000):
+    print("Step 1")
+    print(str(s.recv(1000)))
+    print(x)
+s.close()
 
 # Set constants for the screen size
 SCREEN_WIDTH = 800
 SCREEN_HEIGHT = 500
 
 # Open the window. Set the window title and dimensions (width and height)
-arcade.open_window(SCREEN_WIDTH, SCREEN_HEIGHT, "Juego del opng")
+arcade.open_window(SCREEN_WIDTH, SCREEN_HEIGHT, "Juego del pong")
 
 # Set the background color to white.
 # For a list of named colors see:
