@@ -33,12 +33,14 @@ Pala derecha:
 ```
 
 ## Cosas por arreglar
-- Detección de colisión de la bola contra las palas y los muros.
-- Inicio aleatorio de la bola.
-- Fijar velocidad de la bola.
-- Fin del juego.
+- Arreglar angulo de colision de las palas.
+- ~~Detección de colisión de la bola contra las palas y los muros.~~
+- ~~Inicio aleatorio de la bola.~~
+- ~~Fijar velocidad de la bola.~~
 ## Cosas por implementar
 - Menú principal del juego.
-- Implementación del código para la placa klz25.
-- Implementación entrada por el sensor táctil.
-- Interfaz python.
+- Fin del juego.
+- Jugador PC.
+- ~~Implementación del código para la placa klz25.~~
+- ~~Implementación entrada por el sensor táctil.~~
+- ~~Interfaz python.~~
