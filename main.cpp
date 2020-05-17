@@ -5,7 +5,7 @@
 #include "globals.h"
 #include "source/bola.h"
 #include "source/pala.h"
-
+// comentario
 #include "input.cpp"
 
 using namespace std;
